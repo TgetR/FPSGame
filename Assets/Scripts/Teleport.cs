@@ -6,10 +6,12 @@ public class Teleport : MonoBehaviour
 {
 public GenerativeLevel GL;
 private void OnTriggerEnter(Collider other) {
+	Debug.Log("Player");
 	if(other.tag == "Player")
 	{
+		Debug.Log("Player en");
 		ReGen();
-		other.transform.position = new Vector3(-77.94f,5.8f,65.5f);
+		other.transform.Translate(-77.94f,5.8f,65.5f);
 	}
 }
 void ReGen()
