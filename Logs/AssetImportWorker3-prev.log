@@ -1,0 +1,663 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 24370 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/GitHub/Fps
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57996
+Successfully changed project path to: D:/GitHub/Fps
+D:/GitHub/Fps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9536] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2366821845 [EditorId] 2366821845 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-76T0DDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9536] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2366821845 [EditorId] 2366821845 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-76T0DDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 10.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Fps/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.038727 seconds.
+- Loaded All Assemblies, in  0.480 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 362 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1163ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (641ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.830 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (590ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (32.8 KB). Loaded Objects now: 3869.
+Memory consumption went from 153.2 MB to 153.1 MB.
+Total: 3.580800 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.567800 ms MarkObjects: 2.627400 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1760ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (34.2 KB). Loaded Objects now: 3873.
+Memory consumption went from 148.1 MB to 148.1 MB.
+Total: 3.458900 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.256100 ms MarkObjects: 2.798400 ms  DeleteObjects: 0.071700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15384.206327 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_02.prefab
+  artifactKey: Guid(164922da0c45e13499cbb9c0d181acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_02.prefab using Guid(164922da0c45e13499cbb9c0d181acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ce62e3e3eef5499725121e24c4bfd7') in 0.242638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_03.prefab
+  artifactKey: Guid(d9376b7405d6d344e9079a0f9facffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_03.prefab using Guid(d9376b7405d6d344e9079a0f9facffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea494f4d6db1b8e2906d42175504214') in 0.020766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Yellow.prefab
+  artifactKey: Guid(d2843574691995046b12777e54a55453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Yellow.prefab using Guid(d2843574691995046b12777e54a55453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37f4881a9956cdda53df189cc813ddf') in 0.021224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Blue.prefab
+  artifactKey: Guid(2f3eeb9b037e853489950df7ec0c4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Blue.prefab using Guid(2f3eeb9b037e853489950df7ec0c4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0428bc8716cc1b78371eaf08358da4f5') in 0.018446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Blue.prefab
+  artifactKey: Guid(e90e064552961bb478f9d1b92578b170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Blue.prefab using Guid(e90e064552961bb478f9d1b92578b170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9109aa845e842cdc28959f71d8957c') in 0.018163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Yellow.prefab
+  artifactKey: Guid(040f36dc3eedcd241a0882592506236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Yellow.prefab using Guid(040f36dc3eedcd241a0882592506236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e9de676f0a17870dfcbfd01f6a8313') in 0.018947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Yellow.prefab
+  artifactKey: Guid(303a8118f0602de4d848c9d7b7e74129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Yellow.prefab using Guid(303a8118f0602de4d848c9d7b7e74129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a706da6ba735ff34fcc1544dcbbeabe3') in 0.018430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Blue.prefab
+  artifactKey: Guid(53feeaf808cce28429d051dcbd6642ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Blue.prefab using Guid(53feeaf808cce28429d051dcbd6642ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c644f45288d796fc5fcf7d6668d5e') in 0.019330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Purple.prefab
+  artifactKey: Guid(27358e8da8bf48a45a53bba64a04724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Purple.prefab using Guid(27358e8da8bf48a45a53bba64a04724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dafdd9a669bf4b94dca4ff5d6873de1') in 0.020913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Red.prefab
+  artifactKey: Guid(bcaff6085a83be0418ea2028313d78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Red.prefab using Guid(bcaff6085a83be0418ea2028313d78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25bd0a40143c1e1bfcee42d74a47418') in 0.023613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Green.prefab
+  artifactKey: Guid(006f68bc96878b04e9657bc5fcecb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Green.prefab using Guid(006f68bc96878b04e9657bc5fcecb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67db5a6445abac88bee8f339360093a0') in 0.020618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Green.prefab
+  artifactKey: Guid(0cacfa8ee8c79f6469b49ae380836779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Green.prefab using Guid(0cacfa8ee8c79f6469b49ae380836779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9777b3f3dd1d920dc3666c982cf0309') in 0.026961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Yellow.prefab
+  artifactKey: Guid(16ef0ee9e760e614f9acbcbf95b1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Yellow.prefab using Guid(16ef0ee9e760e614f9acbcbf95b1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21f3f997500b3d72d1140f3fb398ea') in 0.017225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Green.prefab
+  artifactKey: Guid(74c1cb39435213641b90be5965575f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Green.prefab using Guid(74c1cb39435213641b90be5965575f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ae8740d22d1899af5051ae8daeb6c6') in 0.018475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Basket_02.prefab
+  artifactKey: Guid(b2eebec45f249ba4e959a5e0cf96b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Basket_02.prefab using Guid(b2eebec45f249ba4e959a5e0cf96b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aac0afe306c6d7b44eb83086b5176ec') in 0.018432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Blue.prefab
+  artifactKey: Guid(bf8363b0ff810d34eb188506e160156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Blue.prefab using Guid(bf8363b0ff810d34eb188506e160156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a6de47f637bbbf2aa75d70259c1e53') in 0.019127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Green.prefab
+  artifactKey: Guid(ed6ed70884be26a479dd8a819af56329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Green.prefab using Guid(ed6ed70884be26a479dd8a819af56329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b60f0569bb04c1e8aa462362533d552') in 0.019461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(515fff63c7f669d4abf983437c38c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_04.prefab using Guid(515fff63c7f669d4abf983437c38c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e2d9f0947e711ccb97ec2141bbfc1d') in 0.019020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Crate_02.prefab
+  artifactKey: Guid(4af2e69a3f0348b44a982423be88c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Crate_02.prefab using Guid(4af2e69a3f0348b44a982423be88c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9280ae69d805c01764ac63c5964b1c23') in 0.017591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Blue.prefab
+  artifactKey: Guid(18d51fb81a136504a8012d9c99ca47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Blue.prefab using Guid(18d51fb81a136504a8012d9c99ca47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa4919cfd46eb56a1ba0bee769dc347') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Purple.prefab
+  artifactKey: Guid(cb67168c0b7373f40bee1fd44669f986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Purple.prefab using Guid(cb67168c0b7373f40bee1fd44669f986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f46d3247eca342fe58744d473bc51a') in 0.016240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Purple.prefab
+  artifactKey: Guid(c63b9848197795b43805d085f853e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Purple.prefab using Guid(c63b9848197795b43805d085f853e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaf0a0f6717d41c119a51b5706ee963') in 0.016234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Green.prefab
+  artifactKey: Guid(410f168ad9e98f543bd001acc1a546cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Green.prefab using Guid(410f168ad9e98f543bd001acc1a546cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25256fd00f095d07915e5ebe9db11aa2') in 0.017112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Purple.prefab
+  artifactKey: Guid(f7506201fa8dd234da8643bc58c1fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Purple.prefab using Guid(f7506201fa8dd234da8643bc58c1fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e42efacfe2ada2e75f558ad3049f53') in 0.016922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Red.prefab
+  artifactKey: Guid(7997690bee8c7cd45a58d92cc3ea5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Red.prefab using Guid(7997690bee8c7cd45a58d92cc3ea5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088d7e16ac8a4c7fce1a1d4bdd70b89') in 0.016849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.366527 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Purple.prefab
+  artifactKey: Guid(f502427f83e10e247a87212504fcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Purple.prefab using Guid(f502427f83e10e247a87212504fcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8814450790eb2588b492b29f78d68b') in 0.019183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Red.prefab
+  artifactKey: Guid(6092d1bb5a4a3074a88aa2f310c42bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Red.prefab using Guid(6092d1bb5a4a3074a88aa2f310c42bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087454a6f1bf5dab2d17864cff68558') in 0.017312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Purple.prefab
+  artifactKey: Guid(6f254a04acf0892448fb03144a1b5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Purple.prefab using Guid(6f254a04acf0892448fb03144a1b5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8668d7ee4d33c5bd9a16b1002a947c9b') in 0.018152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Blue.prefab
+  artifactKey: Guid(7d7bf6c92ae13cd478d73a6c6bc5fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Blue.prefab using Guid(7d7bf6c92ae13cd478d73a6c6bc5fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ec1034aa482918ca7edfc3be15627f') in 0.022035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Purple.prefab
+  artifactKey: Guid(392154adf107eaf47b51a9416a75bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Purple.prefab using Guid(392154adf107eaf47b51a9416a75bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1367036898f0a48090bde8821abf52fa') in 0.017732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Blue.prefab
+  artifactKey: Guid(8d899f85a0dd1cb4983d94fdae0e1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Blue.prefab using Guid(8d899f85a0dd1cb4983d94fdae0e1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821cf22cccd27134c4da59a80218a436') in 0.019332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Blue.prefab
+  artifactKey: Guid(640a1b7507862ff4aaabf7e8ed0517fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Blue.prefab using Guid(640a1b7507862ff4aaabf7e8ed0517fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4732d97096d68ab40895650eba384d') in 0.017306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Red.prefab
+  artifactKey: Guid(c526998ace67d04498684066f2a75d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Red.prefab using Guid(c526998ace67d04498684066f2a75d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c7f1b42acab5bdacac972eec717d08') in 0.023870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Red.prefab
+  artifactKey: Guid(35380f0d2bbbc714691343711ab2194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Red.prefab using Guid(35380f0d2bbbc714691343711ab2194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c4dda425a708328f90928d55fab228') in 0.019845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Blue.prefab
+  artifactKey: Guid(049a31b928db0684c80f2fa76838f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Blue.prefab using Guid(049a31b928db0684c80f2fa76838f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be61bd2c69dfc50af074a900b38cf5a6') in 0.017363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_01.prefab
+  artifactKey: Guid(1d9a68b5f87cd504692964e0e0184301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_01.prefab using Guid(1d9a68b5f87cd504692964e0e0184301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815535560d4d0b1f2aba9fbbcfd9754c') in 0.020551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Yellow.prefab
+  artifactKey: Guid(2d1c8780b5053c94e8e1b008b8dc2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Yellow.prefab using Guid(2d1c8780b5053c94e8e1b008b8dc2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b8ea6a6136fca424bc4c07b1756264') in 0.016503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Yellow.prefab
+  artifactKey: Guid(a950da56b2e37e74a881eb9cd2ce72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Yellow.prefab using Guid(a950da56b2e37e74a881eb9cd2ce72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea3a127792b78d3c660144e38bc134d') in 0.018580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Blue.prefab
+  artifactKey: Guid(42f519ff7e5f3d54e94c9d02963441cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Blue.prefab using Guid(42f519ff7e5f3d54e94c9d02963441cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651da5a0e796e9e49b92c9a29e56ea6d') in 0.018313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Locker.prefab
+  artifactKey: Guid(5ac3edd53f963024ebc36254c7e55dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Locker.prefab using Guid(5ac3edd53f963024ebc36254c7e55dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37de9b0ca5d20577570f5973c0f5f9eb') in 0.020532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Purple.prefab
+  artifactKey: Guid(19f4c7cc361201e4586f726d42b19251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Purple.prefab using Guid(19f4c7cc361201e4586f726d42b19251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31c639b380a05ed923f4cfa049f6378') in 0.020130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Yellow.prefab
+  artifactKey: Guid(70cbdc76e81f516488de49d9acbef175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Yellow.prefab using Guid(70cbdc76e81f516488de49d9acbef175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963e70887915bcacf104d37fc95f3752') in 0.021978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 616.826613 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat
+  artifactKey: Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat using Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960df9e57669e3b3b1a5672257d58cc2') in 0.042862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Purple.mat
+  artifactKey: Guid(35edf0cdeb6723141b37babb56b2ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Purple.mat using Guid(35edf0cdeb6723141b37babb56b2ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cdbfe4d93992ec0a6f1dc55353ea9') in 0.062001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Red.mat
+  artifactKey: Guid(974e4860cba7dbd478b90327dbc32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Red.mat using Guid(974e4860cba7dbd478b90327dbc32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68de27e05c4a49d5a76f03a6e6460f3d') in 0.019015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Green.mat
+  artifactKey: Guid(5aca6693610276c4190f5740d1183bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Green.mat using Guid(5aca6693610276c4190f5740d1183bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8b872b3f827b6c17de105c3092a0b3') in 0.019061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Yellow.mat
+  artifactKey: Guid(527353d9e6270254680287bb2593d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Yellow.mat using Guid(527353d9e6270254680287bb2593d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f547895376c35612b72073926204ae5c') in 0.021267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.507009 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Yellow.mat
+  artifactKey: Guid(ba0a51ddd31b75443b518751ff4cb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Yellow.mat using Guid(ba0a51ddd31b75443b518751ff4cb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621bb11b09a20fc89cc1720eb788cae2') in 0.014779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.262626 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Green.mat
+  artifactKey: Guid(72b60f1b3e5a4b94f88154af53968158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Green.mat using Guid(72b60f1b3e5a4b94f88154af53968158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9139c7c76e369317722909f86e5a2ac6') in 0.019867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.201475 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a2ff6a618ecd84956a3415202460a5') in 0.052844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,491 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 24370 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GitHub/Fps
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57855
+Successfully changed project path to: D:/GitHub/Fps
+D:/GitHub/Fps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 751692586 [EditorId] 751692586 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-76T0DDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 751692586 [EditorId] 751692586 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-76T0DDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Fps/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.039238 seconds.
+- Loaded All Assemblies, in  0.454 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 304 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1084ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (424ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.840 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1581ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (32.8 KB). Loaded Objects now: 3872.
+Memory consumption went from 156.8 MB to 156.8 MB.
+Total: 3.562400 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.250500 ms MarkObjects: 2.963900 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25655.409838 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Materials/Server_Material.mat
+  artifactKey: Guid(dc772efc330be464785be67d4a6ee8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Materials/Server_Material.mat using Guid(dc772efc330be464785be67d4a6ee8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f77c0a14c1dfe4051bfd4fa7590e40') in 0.074606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Materials/Server_Material_White_Glow.mat
+  artifactKey: Guid(f38c3a4df1a13aa43aa34ed48cb326f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Materials/Server_Material_White_Glow.mat using Guid(f38c3a4df1a13aa43aa34ed48cb326f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669693d845f78a591a9cef9e9e3058a7') in 0.014745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.068827 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/box.fbx
+  artifactKey: Guid(c9c6ccaa5a4cfd34388852fcd337ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/box.fbx using Guid(c9c6ccaa5a4cfd34388852fcd337ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832508cbe97b2eadb60f33570ae65a57') in 0.085857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/panel.fbx
+  artifactKey: Guid(6c0dccc34dccb644c92e648bd6e4e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/panel.fbx using Guid(6c0dccc34dccb644c92e648bd6e4e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f99e3d44947260b7a2a6a5c6fa9c2e') in 0.031248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/server.fbx
+  artifactKey: Guid(22979a140857f8f49ad4426515414f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/server.fbx using Guid(22979a140857f8f49ad4426515414f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b649ef1468b9544a717fdbfde30a15e') in 0.043790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/coffie.fbx
+  artifactKey: Guid(b4157c7e9619751439a4e106a50965d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/coffie.fbx using Guid(b4157c7e9619751439a4e106a50965d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5e97c58e0cca3f49e30fd953e4a62b') in 0.023481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/exit_sign.fbx
+  artifactKey: Guid(6881db6094cb72c46b8781b50bdb99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/exit_sign.fbx using Guid(6881db6094cb72c46b8781b50bdb99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fabe4242534fa3210fd0e74cb5f952') in 0.028287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/pc.fbx
+  artifactKey: Guid(e0ee3feddac32804d9bff3c2cc4f3940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/pc.fbx using Guid(e0ee3feddac32804d9bff3c2cc4f3940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38af0a846e098967a064ae570111a386') in 0.030880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/ceiling_light.fbx
+  artifactKey: Guid(01e65b1ad671b354fae4fdd2794e2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/ceiling_light.fbx using Guid(01e65b1ad671b354fae4fdd2794e2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45461672acc43929648411970105cc3f') in 0.051653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/chair.fbx
+  artifactKey: Guid(020b98f52c31cc1408b7f931a6eca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/chair.fbx using Guid(020b98f52c31cc1408b7f931a6eca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501024f7bf44ba0d9fb2d42d2e77a888') in 0.021639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/display.fbx
+  artifactKey: Guid(16ad48e461256924d91d292f869989e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/display.fbx using Guid(16ad48e461256924d91d292f869989e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ba24f93446c4ba48c6a900b42a654b') in 0.024597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/electric cable.fbx
+  artifactKey: Guid(ac33bc41ad2548c40be6abead6c0c63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/electric cable.fbx using Guid(ac33bc41ad2548c40be6abead6c0c63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5ce8cc00c8a3bf2934028b660a9852') in 0.021093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/laptop.fbx
+  artifactKey: Guid(93022fe0d96179447ad61a75d40fe493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/laptop.fbx using Guid(93022fe0d96179447ad61a75d40fe493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95d9007430c6dfcb2d48209664f8d1') in 0.022150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/pencilbox.fbx
+  artifactKey: Guid(eb7e39bb6ef2ad4459440d2e1b336347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/pencilbox.fbx using Guid(eb7e39bb6ef2ad4459440d2e1b336347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f782cc348457ccef7fd86882a9d0523') in 0.025329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/security_camera.fbx
+  artifactKey: Guid(8ecbf668e1e803b4ca2d1ae1b2a1589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/security_camera.fbx using Guid(8ecbf668e1e803b4ca2d1ae1b2a1589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1949e143fe30367d6c3e261c16bdc55') in 0.020769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/ceiling_single.fbx
+  artifactKey: Guid(e223518c56d468748b9c706805cf546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/ceiling_single.fbx using Guid(e223518c56d468748b9c706805cf546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6231aeb8f9f4bdf88fd9a71098626706') in 0.028324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/screen.fbx
+  artifactKey: Guid(2f151eaa4a22d1e469db75c4ce4b35fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/screen.fbx using Guid(2f151eaa4a22d1e469db75c4ce4b35fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f758ea516b516c05e76093f63a2fd397') in 0.020068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/server_2.fbx
+  artifactKey: Guid(a874ee794ecfbea47ba2369f459daefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Models/server_2.fbx using Guid(a874ee794ecfbea47ba2369f459daefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a5bcb907471b23c180b643073d5eaa') in 0.020569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.349470 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/box.prefab
+  artifactKey: Guid(a15c4b10370dd354a8d5d0fb6d99e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/box.prefab using Guid(a15c4b10370dd354a8d5d0fb6d99e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f41065b8e730c0cb5c8a83f53e0830e') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/Keyboard.prefab
+  artifactKey: Guid(ec78088b7a0003d48ac6ee3afada669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/Keyboard.prefab using Guid(ec78088b7a0003d48ac6ee3afada669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4916252844181e32420c38ad0a84f6bc') in 0.016067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/ceiling_light.prefab
+  artifactKey: Guid(c90faeda1ce307e418ee73344aa5e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/ceiling_light.prefab using Guid(c90faeda1ce307e418ee73344aa5e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ab0d3f280512301f7a86b1c4df2065') in 0.015178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/display.004.prefab
+  artifactKey: Guid(f78cb5e3a28483a41b34edc8c1b57ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/display.004.prefab using Guid(f78cb5e3a28483a41b34edc8c1b57ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d389f74fd3d0a81512e687a636c1a6') in 0.015331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/pencil.prefab
+  artifactKey: Guid(5bce66f7433474e4ebaf06e4434835be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/pencil.prefab using Guid(5bce66f7433474e4ebaf06e4434835be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1810342137956ef555a82e63564645') in 0.015065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/wall.prefab
+  artifactKey: Guid(80cbb9df11318004a95e198e69e78a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/wall.prefab using Guid(80cbb9df11318004a95e198e69e78a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca87bccca52f397a11dbd5b10e85ea6') in 0.016856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/wall_door.prefab
+  artifactKey: Guid(ba08e2e36c3186d47bb5bff407ef271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/wall_door.prefab using Guid(ba08e2e36c3186d47bb5bff407ef271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b2ae0138919293c25694d29af11f7') in 0.017843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/coffie.prefab
+  artifactKey: Guid(a53f591064baf7f4f85f4cd31ffe3d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/coffie.prefab using Guid(a53f591064baf7f4f85f4cd31ffe3d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94540b12cf902f1fa39967764aede644') in 0.017018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/fire_extinguisher.prefab
+  artifactKey: Guid(d5f927682928f9f4c89f2b971e51f3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/fire_extinguisher.prefab using Guid(d5f927682928f9f4c89f2b971e51f3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6de19863429c06ad65d7e8201f8a62') in 0.019178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/pencilbox.prefab
+  artifactKey: Guid(74706bb29dd2f754f8d23c7af6e47e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/pencilbox.prefab using Guid(74706bb29dd2f754f8d23c7af6e47e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954f5b47dad2606768608cb3ea6e28cb') in 0.016986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/chair.prefab
+  artifactKey: Guid(3f036e691e664f447a90fa723afffeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/chair.prefab using Guid(3f036e691e664f447a90fa723afffeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a5a0283e13d7beddc95ad0d8d24528') in 0.017281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/desk.prefab
+  artifactKey: Guid(0e16475e464050141a1bf64d51b46d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/desk.prefab using Guid(0e16475e464050141a1bf64d51b46d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6036011c677d7bce6773860a0b566e6c') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/server_2.prefab
+  artifactKey: Guid(b4f729d9618a65543baedfac3b0a7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/server_2.prefab using Guid(b4f729d9618a65543baedfac3b0a7311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4be45f96f652f8efbe44d20afd0160') in 0.021114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/laptop.prefab
+  artifactKey: Guid(bc9cdfad65562854b86c69a063285b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/laptop.prefab using Guid(bc9cdfad65562854b86c69a063285b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501fa68ff60f9aefcf048bbc7edd41f6') in 0.017947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/password_panel.prefab
+  artifactKey: Guid(75087ca99ecc4264ab937b89c140d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/iPoly3D/Server Room/Prefabs/password_panel.prefab using Guid(75087ca99ecc4264ab937b89c140d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420d7c9ec0d1e2254417cd0c07f3272') in 0.022720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 781.072681 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/AH64.prefab
+  artifactKey: Guid(d9330f811a26b5f4b9276f819ec0ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/AH64.prefab using Guid(d9330f811a26b5f4b9276f819ec0ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04593fa73f527377efc8bd810b907fb9') in 0.033094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/F35.prefab
+  artifactKey: Guid(33d2fc1d0c07999469310c08d25cdf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/F35.prefab using Guid(33d2fc1d0c07999469310c08d25cdf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6b291576e207d0e70454fe7543f40') in 0.030684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/Sr71.prefab
+  artifactKey: Guid(7ab255a1383a4a8479b3c1e7bcdb4e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/Sr71.prefab using Guid(7ab255a1383a4a8479b3c1e7bcdb4e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc423f30e77f4f1569629503e616a6c') in 0.186654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/Su57.prefab
+  artifactKey: Guid(8403b40cb52c1b34abb75577131ce87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Asssets(AsssetStore)/LowPolyMiliteryVehicles/Prefabs/Su57.prefab using Guid(8403b40cb52c1b34abb75577131ce87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8319b9e95d7116a45353b6814783d53c') in 0.027772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
