@@ -5,13 +5,13 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
 public GenerativeLevel GL;
-private void OnTriggerEnter(Collider other) {
+public Transform point;
+private void OnTriggerEnter(Collider collision) {
 	Debug.Log("Player");
-	if(other.tag == "Player")
+	if(collision.gameObject.tag == "Player")   // перед этим стоит задать тэг игроку в юнити
 	{
-		Debug.Log("Player en");
+		collision.transform.position = point.transform.position;
 		ReGen();
-		other.transform.Translate(-77.94f,5.8f,65.5f);
 	}
 }
 void ReGen()
