@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
 		StartCoroutine("LifeTime");
 	}
 	public void Update() {
-		transform.Translate(Vector3.forward * Time.deltaTime * 25);
+		transform.Translate(Vector3.forward * Time.deltaTime * 50);
 	}
 	private void OnCollisionEnter(Collision other) 
 	{

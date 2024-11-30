@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - SpawnPoint
   - Chunck
+  - BulletsAdder
   layers:
   - Default
   - TransparentFX

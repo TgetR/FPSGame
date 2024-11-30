@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour
 	public float HP = 100;
 	public int Holder_current = 45;
 	public int Holder_max = 45;
+	public int Bullets = 100;
 	public GameObject bullet;
 	public GameObject ShootPoint;
 	public Image HPBar;
 	public Animator MagAnim;
+	public TMP_Text bulletCount;
 	[SerializeField] private GameObject DRWL;
 	private bool _FireDelayEnd = true;
 	private bool _ReloadEnd = true;
@@ -41,11 +43,13 @@ public class PlayerController : MonoBehaviour
 				else DRWL.SetActive(false);
 			}
 		//HOLDER CHECK
-		if(Holder_current <= 0 )
+		if(Holder_current <= 0 && Bullets> Holder_max)
 		{
 			Holder_current = Holder_max;
+			Bullets = Bullets - Holder_max;
 			StartCoroutine("Reload");
 		}
+		bulletCount.text = Holder_current + "/" + Holder_max + "/" + Bullets;
 		//HP CHECK
 		if(HP <=0)
 		{
@@ -76,6 +80,14 @@ public class PlayerController : MonoBehaviour
 	{
 		yield return new WaitForSeconds(0.2f);
 		_FireDelayEnd = true;
+	}
+	private void OnTriggerEnter(Collider other) 
+	{
+		if(other.tag == "BulletsAdder")
+		{
+			Bullets += 20;
+			Destroy(other.gameObject);
+		}
 	}
 
 }

@@ -11,14 +11,22 @@ public GameObject[] SpawnPoints;
 private void Start() {
 	Chunks = Resources.LoadAll("Chunks");
 	SpawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
-	Generation();
+	Generation(false);
 }
-public void Generation()
+public void Generation(bool arena)
 {
+	
 	for(int i = 0; i < SpawnPoints.Length; i++)
-	{
-		int j = Random.Range(0, Chunks.Length);
+	{ 
+		if(!arena)
+		{
+		int j = Random.Range(1, Chunks.Length);
 		Instantiate(Chunks[j], SpawnPoints[i].transform.position, SpawnPoints[i].transform.rotation);
+		}
+		else if(arena)
+		{
+        Instantiate(Chunks[0], SpawnPoints[i].transform.position, SpawnPoints[i].transform.rotation);
+		}
 	}
 }
 }

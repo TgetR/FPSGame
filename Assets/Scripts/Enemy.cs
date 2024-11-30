@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
 	public Transform goal;
 	UnityEngine.AI.NavMeshAgent agent;
 	void Start()
-	{
+	{		Player = GameObject.FindWithTag("Player");
 		// Получение компонента агента
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		goal = Player.transform;
@@ -29,7 +29,8 @@ public class Enemy : MonoBehaviour
 	
 	/************************************************************/
 	private void Update() {
-		agent.destination = goal.position;
+		NavMesh.CalculatePath(transform.position, goal.position, agent.areaMask, agent.path);
+		agent.destination = Player.transform.position;
 		//Holder check and reload
 		if(Holder_current <= 0)
 		{
