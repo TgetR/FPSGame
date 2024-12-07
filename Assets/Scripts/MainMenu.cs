@@ -13,6 +13,8 @@ public class MainMenu : MonoBehaviour
 	public string roomName;
 	public GameObject player;
 	private void Start() {
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
 		MainMenuCanvas.SetActive(true);
 		MultiPlayerMenuCanvas.SetActive(false);
 		SinglePlayerMenuCanvas.SetActive(false);

@@ -11,34 +11,21 @@ public class FirstPersonControllerINV : MonoBehaviour
 	public float jumpSpeed = 5f;
 
 	float verticalRotation = 0;
-
-	GameObject _inventory;
-	GameObject _tooltip;
-	GameObject _character;
-	GameObject _dropBox;
 	public bool showInventory = false;
 	float verticalVelocity = 0;
-
-	GameObject inventory;
-	GameObject craftSystem;
-	GameObject characterSystem;
-
-	Camera firstPersonCamera;
-
 	CharacterController characterController;
-	// Use this for initialization
+	
+	Camera firstPersonCamera;
 	void Start()
 	{
+		characterController = gameObject.GetComponent<CharacterController>();
 		firstPersonCamera = Camera.main.GetComponent<Camera>();
-		characterController = GetComponent<CharacterController>();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
 
-		if (!lockMovement())
-		{
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
 			//Rotation
@@ -65,20 +52,6 @@ public class FirstPersonControllerINV : MonoBehaviour
 			speed = transform.rotation * speed;
 
 			characterController.Move(speed * Time.deltaTime);
-		}
 
-	}
-
-
-	bool lockMovement()
-	{
-		if (inventory != null && inventory.activeSelf)
-			return true;
-		else if (characterSystem != null && characterSystem.activeSelf)
-			return true;
-		else if (craftSystem != null && craftSystem.activeSelf)
-			return true;
-		else
-			return false;
 	}
 }

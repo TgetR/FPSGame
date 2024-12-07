@@ -60,7 +60,8 @@ public class Enemy : MonoBehaviour
 	if(other.transform.tag == "Bullet")
 		{
 			Destroy(other.gameObject);
-			HP -= 5;
+			int dmg = Player.GetComponent<PlayerController>().Level * 5;
+			HP -= dmg;
 		}
 	}
 	

@@ -9,6 +9,8 @@ TagManager:
   - SpawnPoint
   - Chunck
   - BulletsAdder
+  - HpAdder
+  - Upgrader
   layers:
   - Default
   - TransparentFX

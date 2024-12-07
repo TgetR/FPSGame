@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4091481458615778997}
   - component: {fileID: 6000226139837284752}
+  - component: {fileID: 6233412884790329745}
   m_Layer: 0
   m_Name: Bullets
   m_TagString: BulletsAdder
@@ -57,6 +58,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.82582706, z: 1}
   m_Center: {x: 0, y: 0.2782196, z: 0}
+--- !u!114 &6233412884790329745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389021866892030130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486856d761a905d4384150dca5072bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5901695956951547692
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,9 +7,10 @@ public class Teleport : MonoBehaviour
 public GenerativeLevel GL;
 public Transform point;
 public int CountOfGeneration;
+public bool ArenaGenerate = false;
 private void OnTriggerEnter(Collider collision) {
 	Debug.Log("Player");
-	if(collision.gameObject.tag == "Player")   // перед этим стоит задать тэг игроку в юнити
+	if(collision.gameObject.tag == "Player")
 	{
 		collision.transform.position = point.transform.position;
 		ReGen();
@@ -23,11 +24,13 @@ void ReGen()
 	{
 		Destroy(objs[i]);
 	}
-	if(CountOfGeneration < 5) GL.Generation(false);
-	else if(CountOfGeneration >= 5)
+	if(CountOfGeneration >= 5)
 	{
+		GL.Generation(false,false);
 		CountOfGeneration = 0;
-		GL.Generation(true);
-	}
+		ArenaGenerate = true;
+	} 
+	else if(ArenaGenerate)GL.Generation(true,false);
+	else GL.Generation(false,true);
 }
 }
