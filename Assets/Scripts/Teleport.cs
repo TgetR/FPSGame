@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Teleport : MonoBehaviour
 {
@@ -15,6 +14,8 @@ private void OnTriggerEnter(Collider collision) {
 		collision.transform.position = point.transform.position;
 		ReGen();
 		CountOfGeneration++;
+		PlayerPrefs.SetInt("Generations", CountOfGeneration);
+		PlayerPrefs.Save();
 	}
 }
 void ReGen()
@@ -26,9 +27,7 @@ void ReGen()
 	}
 	if(CountOfGeneration >= 5)
 	{
-		GL.Generation(false,false);
-		CountOfGeneration = 0;
-		ArenaGenerate = true;
+		SceneManager.LoadScene("Final");
 	} 
 	else if(ArenaGenerate)GL.Generation(true,false);
 	else GL.Generation(false,true);

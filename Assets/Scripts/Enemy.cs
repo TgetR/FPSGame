@@ -50,6 +50,8 @@ public class Enemy : MonoBehaviour
 		//HP check
 		if(HP <=0)
 		{
+		PlayerPrefs.SetInt("EnemyKilled", PlayerPrefs.GetInt("EnemyKilled") + 1);
+		PlayerPrefs.Save();
 		Destroy(gameObject);
 		}
 		

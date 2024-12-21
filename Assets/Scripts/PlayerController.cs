@@ -42,12 +42,24 @@ public class PlayerController : MonoBehaviour
 	public TMP_Text damageCount;
 	[SerializeField] private GameObject DRWL;
 	#endregion
+	#region Stats
+	public float time;
+	public int damage;
+	float mt;
+	#endregion
 	void Start()
-	{
+	{ 
+		mt = Time.time;
 		characterController = gameObject.GetComponent<CharacterController>();
 		firstPersonCamera = Camera.main.GetComponent<Camera>();
 	}
 	private void Update() {
+		//Time update
+		time = Time.time-mt;
+		PlayerPrefs.SetInt("Time",(int)time);
+		//Dmg update
+		PlayerPrefs.SetInt("Damage",Level);
+		PlayerPrefs.Save();
 		//Movement
 		//*******************************************************************************************************************
 		Cursor.lockState = CursorLockMode.Locked;
@@ -112,7 +124,7 @@ public class PlayerController : MonoBehaviour
 		{
 			Destroy(gameObject);
 			Debug.Log("Player Death");
-			SceneManager.LoadScene("Menu");
+			SceneManager.LoadScene("Final");
 		}
 		//HP BAR
 		HPBar.fillAmount = HP / 100;

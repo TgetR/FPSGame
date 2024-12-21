@@ -31,9 +31,9 @@ public class MainMenu : MonoBehaviour
 		MainMenuCanvas.SetActive(false);
 		SinglePlayerMenuCanvas.SetActive(true);
 	}
-	public void Inventory()
+	public void History()
 	{
-		SceneManager.LoadScene("Inventory");
+		SceneManager.LoadScene("History");
 	}
 	//MultiPlayer menu
 	public void CreateRoom()
